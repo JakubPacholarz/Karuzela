@@ -1,0 +1,47 @@
+body
+{
+	background-color: purple;
+	text-align: italic;	
+	
+}
+
+#kontener 
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo 
+{
+	background-color: #303030;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+}
+
+#menu
+{
+	float: left;
+}
+#footer 
+{
+clear: both;
+color:red;
+padding: 10px;	
+}
+#kulka 
+{ 
+color:white;
+}
+
+.opcja 
+{
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+}

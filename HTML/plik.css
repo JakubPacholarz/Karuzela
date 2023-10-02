@@ -1,0 +1,17 @@
+P 
+{font-size: 100pt; margin-left: 10%;}
+
+.druga 
+{font-size: 10pt;}
+
+#trzecia
+{font-size: 50pt;}
+
+A:LINK
+{font-size: 12pt;color:navy;}
+
+A:VISITED
+{font-size: 12pt;color:blue;}
+
+A:HOVER
+{font-size: 30pt; color: red; background-color:yellow; text

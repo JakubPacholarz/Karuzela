@@ -1,0 +1,25 @@
+#a{
+	font-style:italic;
+	color:blue;
+}
+
+#b{
+	text-align:left;
+	margin:1%;
+	background-color:blue;
+	color:black;
+	width:98%;
+	height:7%;
+}
+
+#c{
+	color:red;
+}
+
+#d{
+	margin-left:30%;
+}
+
+body{
+	background-image: linear-gradient(to bottom, grey 0%,white 100%);
+}

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<title>Zadanie 3</title>
+</head>
+<body>
+<div>
+Wpisz punkty:
+<input type="number" id="wejscie"></input>
+</div>
+<div id="div2">
+</div>
+<script>
+var zmienna = document.getElementById("wejscie").value;
+function licz(){
+
+if(zmienna<50 && zmienna>=0){
+	document.write("ocena: 2");
+	
+}
+if(zmienna>=50 && zmienna<70 ){
+	document.write("ocena: 3");
+}
+if(zmienna>=70&& zmienna<90 ){
+	document.write("ocena: 4");
+}
+if(zmienna>=90&& zmienna<100 ){
+	document.write("ocena: 5");
+}
+}
+</script>
+<button onclick="licz()">Policz ocenę</button>
+</body>
+</html>

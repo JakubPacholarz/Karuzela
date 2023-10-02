@@ -1,0 +1,42 @@
+body
+{
+background-color:yellow;
+margin-bottom:10px;	
+margin-left:10px;	
+margin-right:10px;	
+margin-top:10px;	
+font-family:Arial black 12px;
+	
+	
+}
+
+
+td 
+{
+	width: 100px;
+	height: 100px;		
+	outline-style: dotted;
+}
+.kolor
+{
+	outline-style:inset;
+	color: red;	
+	margin-bottom:20px;
+	margin-left:20px;
+	margin-right: 20px;
+	margin-top:20px;
+	
+	
+}
+#tlo
+{
+	background-color:red;
+}
+#yellow
+{
+	background-color:green;
+}
+.foto
+{
+	margin-left:50px;
+}

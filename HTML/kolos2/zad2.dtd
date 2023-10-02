@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE note SYSTEM "zad2.dtd">
+<!ELEMENT pracownicy (pracownicy*)>
+<!ELEMENT pracownik(nazwisko_a?,imie_a?,data-zatr?)>
+<!ELEMENT imie_a (#PCDATA)>
+<!ELEMENT nazwisko_a (#PCDATA)>
+<!ELEMENT data_zatr (#PCDATA)>

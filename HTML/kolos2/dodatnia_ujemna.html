@@ -1,0 +1,24 @@
+<HTML>
+<HEAD>
+<meta charset="UTF-8"> 
+<SCRIPT LANGUAGE="JavaScript">
+<!--ukrycie przed przeglądarkami nieobsługującymi JS
+function liczOcene();
+var punkty = "punkty";
+var ocena = (punkty < 50)? "2";
+var ocena = (punkty > 50 && punkty<70)? "3";
+var ocena = (punkty > 70 && punkty<90)? "4";
+var ocena = (punkty >90)? "5";
+document.write ("twoja ocena " + jaka);
+
+
+// Koniec kodu JS -->
+</SCRIPT>
+</HEAD>
+<BODY>
+
+Podaj punkty <input type="number" id="punkty"><br><br>
+<button onclick="liczOcene()"> Oblicz ocene </button>
+<p id="ocena"></p>
+</BODY>
+</HTML>

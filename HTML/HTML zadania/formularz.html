@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>ćwiczenia z html</title>
+		<style>
+			html, body {
+			width: 100%;
+			height: 100%;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-bottom: 50px;
+			margin-top: 20px;
+			background-color: grey;}
+			
+			td {
+			vertical-align: top;}
+			
+			#tytul {
+			text-align: right;}
+			
+			#hurt {
+			text-align: center;}
+		</style>
+	</head>
+	
+	<body>
+		
+		<table border="1" width="100%" height="100%" bgcolor="white">
+			<tr height="20%">
+				<td rowspan="3" width="10%"></td>
+				<td colspan="3">Nagłówek - obrazek z nazwą i logo</td>
+				<td rowspan="3" width="10%"></td>
+			</tr>
+			<tr>
+				<td width="15%">
+					<a href="formularz.html">Formularz</a><br />
+					<a href="tabela.html">Tabela</a><br />
+					<a href="lista.html">Lista</a><br />
+				</td>
+				<td>
+					<table>
+						<tr>
+							<td colspan="4">
+								<h2>Rejestracja</h2><br />
+								W celu uzyskania uprawnień do dokonywania zakupów prosimy o wypełnienie poniższego formularza.<br />
+								Pola oznaczone gwiazdką są obowiązkowe.<br />
+							</td>
+						</tr>
+						<form>
+							<tr>
+								<td colspan="2"><b>Dane identyfikacyjne:</b></td>
+								<td colspan="2"><b>Osoba kontaktowa:</b></td>
+							</tr>
+							<tr>
+								<td id="tytul">Firma*:</td>
+								<td><input type="text" name="firma" required></td>
+								<td id="tytul">Nazwisko*:</td>
+								<td><input type="text" name="nazwisko" required></td>
+							</tr>
+							<tr>
+								<td id="tytul">Ulica:</td>
+								<td><input type="text" name="ulica"></td>
+								<td id="tytul">Imię*:</td>
+								<td><input type="text" name="imie" required></td>
+							</tr>
+							<tr>
+								<td id="tytul">Miejscowość:</td>
+								<td><input type="text" name="miejscowosc"></td>
+								<td id="tytul">Telefon*:</td>
+								<td><input type="text" name="tel" required></td>
+							</tr>
+							<tr>
+								<td id="tytul">Kod pocztowy:</td>
+								<td><input type="text" name="kod-pocztowy"></td>
+								<td id="tytul">Kraj*:</td>
+								<td>
+									<select name="kraj" required>
+										<option selected>Polska</option>
+										<option>Niemcy</option>
+										<option>Chiny</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td id="tytul">NIP:</td>
+								<td><input type="text" name="NIP"></td>
+								<td id="tytul">Telefon kom:</td>
+								<td><input type="text" name="tel-kom"></td>
+							</tr>
+							<tr>
+								<td id="tytul">WWW:</td>
+								<td><input type="text" name="www"></td>
+								<td id="tytul">Faks:</td>
+								<td><input type="text" name="fax"></td>
+							</tr>
+							<tr>
+								<td colspan="3" id="tytul">E-mail*:</td>
+								<td><input type="text" name="mail" required></td>
+							</tr>
+							<tr>
+									<td colspan="2"><b>Informacje dodatkowe:</b></td>
+									<td colspan="2"></b>Moja główna branża to:</td>
+							</tr>
+							<tr>
+								<td id="tytul">Zakupy:</td>
+								<td><input type="radio" name="zakupy">detaliczne</td>
+								<td colspan="2"><input type="radio" name="branza">GSM</td>
+							</tr>
+							<tr>
+								<td colspan="2" id="hurt"><input type="radio" name="zakupy">hurtowe</td>
+								<td colspan="2"><input type="radio" name="zakupy">hurtowe</td>
+							</tr>
+							<tr>
+								<td id="tytul">Prowadzę:</td>
+								<td><input type="checkbox" name="rodzaj">hurtownię</td>
+								<td colspan="2"><label><input type="radio" name="branza">RTV</td>
+							</tr>
+							<tr>
+								<td colspan="2" id="hurt"><input type="checkbox" name="rodzaj">salon</td>
+								<td colspan="2"><input type="radio" name="branza">komputerowa</td>
+							</tr>
+							<tr>
+								<td colspan="2" id="hurt"><input type="checkbox" name="rodzaj">sklep</td>
+								<td colspan="2"><input type="radio" name="branza">materiały eksploatacyjne do drukarek</td>
+							</tr>
+							<tr>
+								<td colspan="2" id="hurt"><input type="checkbox" name="rodzaj">punkt z<br/>akcesoriami GSM</td>
+								<td colspan="2"><input type="radio" name="branza">inna: <input type="text" name="inna-branza"></td>
+							</tr>
+							<tr>
+								<td colspan="2" id="hurt"><input type="checkbox" name="rodzaj">inny</td>
+								<td colspan="2"></td>
+							</tr>
+							<tr>
+								<td colspan="2"><b>Dane konfiguracyjne:</b></td>
+								<td colspan="2"></td>
+							</tr>
+							<tr>
+								<td id="tytul">Login*:</td>
+								<td><input type="username" name="login" required></td>
+								<td colspan="2"></td>
+							</tr>
+							<tr>
+								<td id="tytul">Hasło*:</td>
+								<td><input type="password" name="haslo" required></td>
+								<td colspan="2"></td>
+							</tr>
+							<tr>
+								<td id="tytul">Powtórz hasło*:</td>
+								<td><input type="password" name="powtorz-haslo" required></td>
+								<td colspan="2"></td>
+							</tr>
+						</form>
+					</table>
+		<td width="15%">Miejsce na reklamy</td>
+			</tr>
+			<tr height="20%">
+				<td colspan="3">
+					<a href="formularz.html">Formularz</a><br />
+					<a href="tabela.html">Tabela</a><br />
+					<a href="lista.html">Lista</a><br />
+				</td>
+			</tr>
+		</table>
+	</body>
+
+</html>

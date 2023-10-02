@@ -1,0 +1,62 @@
+body
+{
+background-image: linear-gradient(gray 0%, white 100%);
+letter-spacing: 2px;
+
+}
+#contener
+{
+	font-style: italic;
+	
+	
+}
+#menu
+{
+	
+	background-color: purple;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+	letter-spacing: 3px;
+	
+
+}
+
+.option 
+{
+	
+	float: right;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.option:hover
+{
+	cursor: pointer;
+	background-color: red;
+}
+#tekst
+{
+	float: right;
+	text-align: justify;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	letter-spacing: 9px;
+	font-weight: 900;
+	text-shadow: 0.1em 0.1em #333;
+	margin-left:auto;
+	margin-right:auto;
+}
+#druga
+{
+	float:bottom;
+	clear: both;
+	letter-spacing: 9px;
+	position: absolute; 
+	bottom: 300px;
+}
+

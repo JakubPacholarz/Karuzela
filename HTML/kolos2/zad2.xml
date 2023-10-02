@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<pracownicy>
+	<dzial-spozywczy>plec="m"
+		<pracownik>
+			<nazwisko_a>Nowak</nazwisko_a>
+			<imie_a>Michał</imie_a>
+			<data-zatr>10-01-2009</data-zatr>
+		</pracownik>plec="k"
+		<pracownik>
+			<nazwisko_a>Lipiec</nazwisko_a>
+			<imie_a>Anna</imie_a>
+			<data-zatr>04-12-2007</data-zatr>
+		</pracownik>
+	</dzial-spozywczy>
+	<dzial-chemiczny>plec="k"
+		<pracownik>
+			<nazwisko_a>Malinowska</nazwisko_a>
+			<imie_a>Marta</imie_a>
+			<data-zatr>23-06-2005</data-zatr>
+		</pracownik>
+	</dzial-chemiczny>
+</pracownicy>

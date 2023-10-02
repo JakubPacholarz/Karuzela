@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta charset="utf-8">
+
+
+
+<script LANGUAGE="JavaScript">
+function liczOcene(){
+var punkty = document.getElementById("punkty").value;
+if(punkty >= 0 && punkty <=100){
+if(punkty<50) document.getElementById("ocena").innerHTML = "2";
+else if(punkty<=70) document.getElementById("ocena").innerHTML = "3";
+else if(punkty<=90) document.getElementById("ocena").innerHTML = "4";
+else if(punkty>90) document.getElementById("ocena").innerHTML = "5";
+} else {
+alert("Niepoprawna");
+}
+}
+
+
+
+
+</script>
+</head>
+<body>
+Podaj punkty <input type="number" id="punkty"><br><br>
+<button onclick="liczOcene()"> Oblicz ocene </button>
+<p id="ocena"></p>
+</body>
+
+ 
+
+
+
+</html>

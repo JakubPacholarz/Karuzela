@@ -1,0 +1,154 @@
+body
+{
+	background-image: url("restauracja.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Vardena;
+	font-style: solid;
+	font-size: 20px;
+	color: black;
+}
+
+#container
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+#logo
+{
+	color: white;
+	margin-top:20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+	float: center;
+	text-align:center;
+	background-color: #303030;
+}
+#menu
+{
+	background-color: #303030;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+}
+#topbar
+{
+	background-color:#303030;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 300px;
+}
+#topbarL
+{
+	float: left;
+	padding: 20px;
+	width: 135px;
+	text-align: center;
+	border-right: 3px dotted #cccccc;
+}
+#topbarR
+{
+	float: left;	
+	padding: 20px;
+	width: 1000px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#content
+{
+	float: left;
+	padding: 40px;
+	width:730px;
+	background-color: #dedede;
+	min-height: 580px;
+	text-align: justify;
+	
+}
+#footer
+{
+	clear: both;
+	
+}
+.option
+{
+	float: left;
+	min-width: 70px;
+	height: 20px;
+	font-size: 20px;
+	padding: 20px;
+	border-right: 2px dotted #444444;
+	opacity: 0.8;
+	
+}
+
+.optionL
+{
+	font-size: 18px;
+	height: 60px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+	
+}
+
+.optionL:hover
+{
+	background-color: #f36742;
+	color: white;
+	cursor: pionter;
+}
+.menu
+{
+	color:white;
+	font-weight:bold;
+	
+}
+.a:visited
+{
+	color:white;
+	background-color: black;
+	cursor:pointer;
+}
+a.hover
+{
+	color:white;
+}
+tr 
+{
+	color:white;
+}
+form
+{
+	
+}
+.lewo
+{
+	border-left:dotted;
+}
+.foto
+{
+	height:200px;
+	width:200px;
+}
+.kucharze1
+{
+	
+	width:80%; 
+	height: 200px;
+	text-align: justify;
+}
+#menu1
+{
+	background-color: #303030;
+	margin-top: 20px;
+	color: white;
+	padding: 10px;
+	text-align:center;
+}

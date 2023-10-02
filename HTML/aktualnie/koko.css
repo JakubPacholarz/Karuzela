@@ -1,0 +1,63 @@
+body
+{
+	background-color: purple;
+	
+	
+	
+}
+td
+{
+	width:150px;
+	height: 150px;
+	border: double ;
+	
+}
+.tabela 
+{
+	color:red;
+	border:static;
+	
+}
+#pink
+{
+	background-color: pink;
+}
+.popo
+{
+	color: yellow;
+}
+
+a:hover
+{
+ color: red;	
+}
+
+a:Active
+{
+	color:white;
+}
+a
+{
+   color: green;
+   text-decoration: none;
+}
+a:visited
+{
+	color: gray;
+}
+#pierwsza
+{
+	height:100px;
+}
+#druga
+{
+	height:100px;
+}
+#trzecia 
+{
+	height:100px;
+}
+#czwarta
+{
+	height:100px;
+}
