@@ -33,7 +33,7 @@
             </Label>
             <TextField fx:id="tf_username" layoutX="120.0" layoutY="222.0" />
             <TextField fx:id="tf_password" layoutX="120.0" layoutY="290.0" />
-            <Button fx:id="btn_login" layoutX="169.0" layoutY="334.0" mnemonicParsing="false" style="-fx-background-color: #2934;" text="LOG" onAction="#loginButtonClicked">
+            <Button fx:id="btn_login" layoutX="169.0" layoutY="334.0" mnemonicParsing="false" onAction="#loginButtonClicked" style="-fx-background-color: #2934;" text="LOGOWANIE">
                <font>
                   <Font name="Arial Black" size="12.0" />
                </font>
@@ -43,7 +43,7 @@
                   <Font name="Arial Black" size="12.0" />
                </font>
             </Label>
-            <Button fx:id="bt_rejestracja" layoutX="165.0" layoutY="68.0" mnemonicParsing="false" style="-fx-background-color: #2934;" text="REJESTRACJA" onAction="#registerButtonClicked">
+            <Button fx:id="bt_rejestracja" layoutX="165.0" layoutY="68.0" mnemonicParsing="false" onAction="#registerButtonClicked" style="-fx-background-color: #2934;" text="REJESTRACJA">
 
             <font>
                   <Font name="Arial Black" size="12.0" />
